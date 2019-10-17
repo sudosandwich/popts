@@ -23,7 +23,7 @@ Some design goals:
 Consider a program that
 
 1. reads `stdin`, 
-2. outputs the processed contents to `stdout`
+2. outputs the processed contents to `stdout`.
 
 ```c++
 #include <iostream>
@@ -34,7 +34,7 @@ bool Process(istream& in, ostream& out);
 
 int main() {
     if(!Process(cin, out)) {
-        cerr << "An error occurred.".
+        cerr << "An error occurred.";
         return 1;
     }
     return 0;

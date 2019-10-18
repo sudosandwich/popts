@@ -15,7 +15,7 @@ Some design goals:
 * requires a modern compiler, e.g. ranged for loops and `<chrono>` should be available
 * consistent program state even after errors
 * simple to use
-* consistent use of vocabluary
+* consistent use of vocabulary
 
 
 ## Example
